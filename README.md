@@ -7,7 +7,7 @@ This is a granular way of doing it (manually `.fossa.yml` to each applicable dir
 
 #### Why would you want to do this?
 
-Cut down on analysis time.
+Cut down on analysis time. This approach also makes sense if a monorepo contains many products and in FOSSA you want to see each subdirectory as it's own project. #productTaxonomy
 
 ### Suggestions
 

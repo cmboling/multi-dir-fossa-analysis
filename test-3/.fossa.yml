@@ -1,0 +1,7 @@
+version: 3
+
+project:
+  id: multi-dir-fossa-config-test-3
+  name: fossa-config-test-3
+  link: fossa.com
+  url: https://github.com/cmboling/multi-dir-fossa-config/tree/main/test-3

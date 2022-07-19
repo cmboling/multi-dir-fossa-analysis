@@ -18,3 +18,7 @@ Run `fossa list-targets` to figure out which targets FOSSA is able to analyse. O
 Each subdirectory is its own project in FOSSA.
 
 ![image](https://user-images.githubusercontent.com/1427948/179844466-273de9c4-b003-4237-b14f-e23711620226.png)
+
+### Maintenance
+
+If there's room for improvement, definitely leave an issue and submit a PR!

@@ -1,4 +1,4 @@
-# multi-dir-fossa-analysis
+# Multi-directory FOSSA
 
 ### About this repository
 

@@ -33,4 +33,5 @@ jobs:
           
           if ! fossa analyze ${{ matrix.directory }}; then
               echo "FOSSA analysis not successful"
+              exit 1
           fi

@@ -31,3 +31,8 @@ jobs:
           curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh | bash
           fossa --version
           fossa analyze ${{ matrix.directory }}
+          
+          status=$?
+          if [ $status -eq 1 ]; then
+              echo "FOSSA analysis not successful"
+          fi

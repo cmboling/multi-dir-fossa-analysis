@@ -40,8 +40,14 @@ jobs:
         with:
           api-key: ${{secrets.FOSSA_API_KEY}}
 
-      - uses: fossas/fossa-action@main # Use a specific version if locking is preferred
-        id: fossa-test
-        with:
-          api-key: ${{secrets.FOSSA_API_KEY}}
-          run-tests: true
+#       - uses: fossas/fossa-action@main # Use a specific version if locking is preferred
+#         id: fossa-test
+#         with:
+#           api-key: ${{secrets.FOSSA_API_KEY}}
+#           run-tests: true
+
+      - name: Running FOSSA CLI test with json output
+        run: |
+          curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh | bash
+          fossa --version
+          fossa test --json

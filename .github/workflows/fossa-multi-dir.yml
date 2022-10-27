@@ -50,4 +50,4 @@ jobs:
         run: |
           curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh | bash
           fossa --version
-          fossa test --json
+          fossa test --json | jq '.issues[] | select(.type == "vulnerability")'

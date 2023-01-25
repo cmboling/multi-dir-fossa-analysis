@@ -1,0 +1,8 @@
+{
+  "referenced-dependencies": [
+    {
+      "type": "git",
+      "name": "https://github.com/intel/modsecurity-wasm-filter"
+    }
+   ]
+}

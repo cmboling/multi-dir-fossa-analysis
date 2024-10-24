@@ -26,5 +26,4 @@ jobs:
 
       - name: Running FOSSA Test
         run: |
-          fossa --version
           fossa test

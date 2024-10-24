@@ -1,4 +1,4 @@
-# Multi-directory FOSSA
+# Multi-directory FOSSA Testing Example
 
 ### About this repository
 

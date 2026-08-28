@@ -1,4 +1,4 @@
-# Multi-directory FOSSA 123
+# Multi-directory FOSSA
 
 ### About this repository
 
